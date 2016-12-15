@@ -1,0 +1,142 @@
+html {
+	height: 100%;
+}
+
+div {
+	display: block;
+}
+
+.container {
+	min-height: 100%;
+	width: 100%;
+}
+/* Navigation Bar */
+
+.navbar {
+	width: 100%;
+	padding: 10px;
+	height: 30px;
+}
+
+.navbar ul {
+	list-style: none;
+	display: inline;
+}
+
+.navbar ul li {
+    display: inline-block;
+    line-height: 20px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.navbar .right {
+	right: 20px;
+	position: absolute;
+}
+
+.navbar .left {
+	left:10px;
+	position: absolute;
+}
+
+li.user {
+	background-color: blue;
+	border-radius: 50%;
+}
+
+li.user a {
+	color:white;
+}
+
+/** Logos **/
+
+
+.navbar div.icon {
+	background: url('../images/qi1_36e7b564.png') no-repeat;
+	background-size: 128px 88px;
+	height: 20px;
+	width: 20px;
+}
+
+.navbar .icon.apps {
+	background-position: -70px -34px;
+}
+
+.navbar .icon.notif {
+	background-position: -79px 0px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+
+
+/* Main Logo & Search */
+
+.main {
+	text-align: center;
+	width: 100%;
+	position: relative;
+	padding-top: 1pc;
+	padding-bottom: 2pc;
+	top: 4pc;
+}
+
+.main .logo img {
+	height: 42px;
+	width: 120px;
+}
+
+/* Search */
+.search input[type=text] {
+	min-width:50%;
+	max-width:90%;
+    height: 20px;
+    padding: 10px;
+}
+
+
+
+.search input[type=submit]{
+	background-color: #efefef;
+	border: none;
+	color: #585757;
+	padding: 10px;
+}
+
+.main .search input{
+	margin:10px;
+}
+
+/* Footer */
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	background-color: #f2f2f2;
+}
+
+@media only screen and (max-height: 370px) {
+	.footer {
+		position: relative;
+		top: 39px;
+		bottom: 0px;
+	}
+}
+
+.footer ul li {
+	color: #666
+}
+
+
+/* Links */
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+a:active {
+    color:aqua;    
+}
+

@@ -2,25 +2,48 @@
 <html>
 <head>
 	<title>Google</title>
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 <body>
-	<div class="navbar">
-		<ul>
-			<li class="left"><a href="#">ALL</a></li>
-			<li class="left"><a href="#">IMAGES</a></li>
-			<li class="right"><a href="#"><div class="icon apps"></div></a></li>
-			<li class="right"><a href="#"><div class="icon notif"></div></a></li>
-			<li class="right"><a href="#"><div class="user">M</div></a></li>
-		</ul>
-	</div>
-	<div class="main">
-		<div class="logo">
-			<img src="/images/googlelogo_color_16x56dp.png" alt="Google">
+	<div class="container">
+		<div class="navbar">
+			<ul class="left">
+				<li class="active" ><a href="index.html">ALL</a></li>
+				<li><a href="#">IMAGES</a></li>
+			</ul>
+			<ul class="right">
+				<li><div class="icon apps"></div></li>
+				<li><div class="icon notif"></div></li>
+				<li class="user" ><a href="#">M</a></li>
+			</ul>
 		</div>
-		<div class="search">
-			<form>
-				<input type="text" name="search_box">
-			</form>
+		<!-- main section -->
+		<div class="main">
+			<div class="logo">
+				<img src="images/googlelogo_color_160x56dp.png" alt="Google" height="56px" width="160px">
+			</div>
+			<div class="search">
+				<form>
+					<input type="text" name="search_box"> <br />
+					<input type="submit" value="Google Search" name="search_submit">
+					<input type="submit" value="I'm Feeling Lucky" name="feeling_lucky">
+				</form>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<div class="footer navbar">
+			<ul class="left">
+				<li><a href="#">Advertising</a></li>
+				<li><a href="#">Business</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+			<ul class="right">
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Terms</a></li>
+				<li><a href="#">Settings</a></li>
+			</ul>
 		</div>
 	</div>
 
