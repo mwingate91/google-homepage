@@ -1,2 +1,2 @@
 # google-homepage
-rebuild of the famous google homepage
+rebuild of the google homepage
